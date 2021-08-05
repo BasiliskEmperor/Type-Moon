@@ -126,6 +126,12 @@ footer a {
     text-decoration: none;
 }
 
+.copyright {
+    color: white;
+    font-size: 17px;
+    margin: 20px 0 0;
+}
+
 #fjogos {
     background: black;
     width: 940;
