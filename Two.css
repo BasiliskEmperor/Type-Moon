@@ -1,0 +1,142 @@
+body {
+    background: whitesmoke;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+#caixa {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 150px 0 0;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-transform: uppercase;
+    color: rgb(247, 46, 46);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#zona {
+    background: black;
+
+    width: 940;
+    height: auto;
+    margin: 30px 0 0 0;
+}
+
+h2 {
+    background: darkred;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+.titulo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: top;
+    width: 350px;
+    font-size: 25px;
+    display: inline-block;
+    margin: 5px 0 2px 0;
+    text-align: center;
+}
+
+.list li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 3px 1.2%;
+    padding: 30px 20px;
+    width: auto;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    border-color: darkred;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.list li:hover {
+    border-color: rgb(247, 46, 46);
+}
+
+.list li:hover h2 {
+    font-size: 30px;
+}
+
+.list li:active {
+    border-color: rgb(151, 64, 64);
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+.text {
+    color: black;
+    background: white;
+    display: inline-block;
+    width: 350px;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+footer a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#fjogos {
+    background: black;
+    width: 940;
+    height: auto;
+    
+}
+
+#fjogos h1 {
+    color: black;
+    background:  white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
