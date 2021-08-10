@@ -7,6 +7,29 @@ header {
     padding: 20px;
 }
 
+#fate {
+    position: relative;
+    background: rgb(49, 51, 51);
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-color: rgb(104, 37, 37);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#tm {
+    position: relative;
+    width: 100%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border-color: rgb(104, 37, 37);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
 #caixa {
     position: relative;
     width: auto;
@@ -103,11 +126,91 @@ h2 {
     display: inline-block;
 }
 
+#tm .blank {
+    background: white;
+}
+
+.desc {
+    color: black;
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin: 30px 0;
+}
+
+.desc li {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+#tm .image {
+    width: 400px;
+    height: 300px;
+    top: 15px;
+    left: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+
 .text {
     color: black;
     background: white;
     display: inline-block;
     width: 350px;
+    position: relative;
+}
+
+.txt {
+    color: black;
+    text-align: center;
+    font-weight: 550;
+    font-size: 25px;
+    padding: 10px 0px;
+    background: white;
+    position: relative;
+}
+
+#fate .text1 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 350%;
+    text-decoration: underline;
+    display: inline-block;
+    margin: 70px 0;
+    width: 100%;
+    position: relative;
+    
+}
+
+#fate .text2 {
+    color: black;
+    text-align: center;
+    background: rgb(104, 37, 37);
+    font-size: 250%;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+#tm .text1 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 350%;
+    text-decoration: underline;
+    display: inline-block;
+    margin: 70px 0;
+    width: 100%;
     position: relative;
 }
 
@@ -146,3 +249,31 @@ footer a {
     font-weight: bold;
     text-align: center;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+
