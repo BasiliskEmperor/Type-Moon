@@ -45,7 +45,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 150px 0 0;
+    margin: 0 120px 0 0;
 }
 
 nav a {
@@ -97,7 +97,7 @@ h2 {
     vertical-align: top;
     margin: 3px 1.2%;
     padding: 30px 20px;
-    width: auto;
+    width: 45%;
     height: auto;
     position: relative;
     box-sizing: border-box;
@@ -119,6 +119,15 @@ h2 {
     border-color: rgb(151, 64, 64);
 }
 
+.list .text {
+    text-align: center;
+    color: black;
+    background: white;
+    display: inline-block;
+    width: 350px;
+    position: relative;
+}
+
 .image {
     width: 300px;
     height: 200px;
@@ -126,8 +135,24 @@ h2 {
     display: inline-block;
 }
 
+.list .image {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+}
+
 #tm .blank {
     background: white;
+}
+
+#tm .blank .image {
+    width: 400px;
+    height: 300px;
+    top: 15px;
+    left: 30px;
+    position: relative;
+    display: inline-block;
 }
 
 .desc {
@@ -147,10 +172,9 @@ h2 {
 }
 
 #tm .image {
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     top: 15px;
-    left: 30px;
     position: relative;
     display: inline-block;
 }
@@ -259,7 +283,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px 0;
