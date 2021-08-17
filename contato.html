@@ -10,12 +10,12 @@
     <body>
         <header>
             <div id="caixa">
-                <h1><img class="image" src="simbolo.png"></h1>
+                <h1><img class="image" src="simbolo.png" alt="Simbolo de invocação"></h1>
 
                 <nav>
                     <ul>
                         <li><a href="home.html">Home</a></li>
-                        <li><a href="jogos.html">jogos</a></li>
+                        <li><a href="historias.html">Historias</a></li>
                         <li><a href="extra.html">Extras</a></li>
                     </ul>
                 </nav>
@@ -25,30 +25,39 @@
         <main>
             <form>
                 <label for="nome">Nome Completo</label>
-                <input type="text" id="nome" class="input-padrao">
+                <input type="text" id="nome" class="input-padrao" required>
 
                 <label for="gmail">Email</label>
-                <input type="text" id="gmail" class="input-padrao">
+                <input type="email" id="gmail" class="input-padrao" required placeholder="seuemail@domino.com">
 
                 <label for="cel">Telefone</label>
-                <input type="text" id="cel" class="input-padrao">
+                <input type="tel" id="cel" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="65" rows="7" id="mensagem" class="input-padrao"></textarea>
+                <textarea cols="65" rows="7" id="mensagem" class="input-padrao" required></textarea>
 
-                <div>
-                    <p>Como prefere o contato?</p>
+                <fieldset>
+                    <legend>Como prefere o contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     
 
                     <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
                     
 
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                     
-                </div>
-                
-                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual o horário prefere ser atendido?</legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
 
                 <input type="submit" value="Enviar Formulário">
@@ -56,8 +65,8 @@
         </main>
 
         <footer>
-            <img class="image" src="Logo.png">
-            <p><a href="http://funamusea.com/">Copyright --- Funamusea --- 2021</a></p>
+            <img class="image" src="Logo.png" alt="Simbolo dos comandos">
+            <p>Copyright --- 2021</p>
         </footer>
     </body>
 
