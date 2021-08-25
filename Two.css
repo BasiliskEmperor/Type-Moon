@@ -71,6 +71,17 @@ nav a:hover {
     margin: 30px 0 0 0;
 }
 
+.simp {
+    width: 940px;
+    position: relative;
+    height: 200px;
+    margin: 0 0 50px 0;
+    border-color: rgb(104, 37, 37);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
 h2 {
     background: darkred;
     font-weight: bold;
@@ -133,6 +144,14 @@ h2 {
     height: 200px;
     position: relative;
     display: inline-block;
+    clear: left;
+}
+
+.mini {
+    position: relative;
+    width: 190px;
+    float: left;
+    clear: left;
 }
 
 .list .image {
@@ -179,6 +198,22 @@ h2 {
     display: inline-block;
 }
 
+p {
+    color: black;
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 25px;
+    position: relative;
+}
+
+.simp p {
+    color: black;
+    width: 100%;
+    font-weight: bold;
+    padding: 10px 5px;
+    font-size: 25px;
+    position: relative;
+}
 
 .text {
     color: black;
@@ -316,4 +351,32 @@ form label, form legend {
 .enviar:hover {
     background: rgb(241, 31, 31);
     transform: scale(1.2) rotate(360deg);
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+#lanc {
+    margin: 30px 0 40px;
+    width: 100%;
+}
+
+thead {
+    background: black;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+#lanc td, #lanc th {
+    border: 1px solid black;
+    padding: auto;
+    font-weight: bold;
+    font-size: 30px;
 }
