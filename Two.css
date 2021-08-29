@@ -11,8 +11,8 @@ header {
 .fate {
     position: relative;
     background: rgb(49, 51, 51);
-    width: 100%;
-    margin: 0 auto;
+    width: 940px;
+    margin: 0 auto 10px auto;
     box-sizing: border-box;
     border-color: rgb(104, 37, 37);
     border-width: 10px;
@@ -33,9 +33,11 @@ header {
 }
 
 #tm {
+    background: whitesmoke;
     position: relative;
-    width: 100%;
-    margin: 30px auto;
+    height: auto;
+    width: 940px;
+    margin: 0 auto;
     box-sizing: border-box;
     border-color: rgb(104, 37, 37);
     border-width: 10px;
@@ -45,7 +47,7 @@ header {
 
 #caixa {
     position: relative;
-    width: auto;
+    width: 940px;
     margin: 0 auto;
     padding: 30px;
 }
@@ -78,7 +80,6 @@ nav a:hover {
 
 #zona {
     background: black;
-
     width: 940px;
     height: auto;
     margin: 30px 0 0 0;
@@ -175,16 +176,19 @@ h2 {
 }
 
 #tm .blank {
-    background: white;
+    background: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#tm .blank .desc {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #tm .blank .image {
-    width: 400px;
-    height: 300px;
-    top: 15px;
-    left: 30px;
-    position: relative;
-    display: inline-block;
+    width: 50%;
 }
 
 .desc {
@@ -196,11 +200,13 @@ h2 {
     margin: 30px 0;
 }
 
-.desc li {
-    display: block;
+.itens {
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.itens:first-child {
     font-weight: bold;
-    font-size: 30px;
-    margin: 15px 0;
 }
 
 #tm .image {
@@ -242,7 +248,7 @@ p {
     font-weight: 550;
     font-size: 25px;
     padding: 10px 0px;
-    background: white;
+    background: whitesmoke;
     position: relative;
 }
 
@@ -258,6 +264,14 @@ p {
     width: 100%;
     position: relative;
     
+}
+
+.fate .text1::before {
+    content: "⚔️ ";
+}
+
+.fate .text1::after {
+    content: " ⚔️";
 }
 
 .fate .text2 {
@@ -284,6 +298,14 @@ p {
     margin: 70px 0;
     width: 100%;
     position: relative;
+}
+
+#tm .text1:before {
+    content: "☾ ";
+}
+
+#tm .text1:after {
+    content: " ☽";
 }
 
 footer {
@@ -323,8 +345,7 @@ footer a {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+    background: radial-gradient(whitesmoke,black);
 }
 
 form {
